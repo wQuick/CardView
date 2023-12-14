@@ -32,6 +32,7 @@ AUTHORS_EMAIL = ["https://gramps-project.org"]
 if not config.has_default("interface.cardview.enable-statistics-dashboard"):
     config.register("interface.cardview.enable-statistics-dashboard", False)
     config.save()
+
 enable_dashboard = config.get("interface.cardview.enable-statistics-dashboard")
 
 if enable_dashboard:
