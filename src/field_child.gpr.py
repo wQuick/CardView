@@ -26,7 +26,7 @@ register(
     description=_("A child number field calculator."),
     category="FIELD",
     version="0.9",
-    gramps_target_version="5.2",
+    gramps_target_version="5.1",
     status=STABLE,
     fname="field_child.py",
     load_on_reg=True,

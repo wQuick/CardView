@@ -26,7 +26,7 @@ register(
     description=_("Status indicators for how well researched a person is."),
     category="STATUS",
     version="0.9",
-    gramps_target_version="5.2",
+    gramps_target_version="5.1",
     status=STABLE,
     fname="status_person.py",
     load_on_reg=True,
